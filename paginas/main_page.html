@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <style>
+        input:valid{border-color: lawngreen;}
+        input:invalid{border-color: crimson;}
+        textarea:valid{border-color: chartreuse;}
+        textarea:invalid{border-color: crimson;}
+             
+    </style>
+</head>
+<body>
+    <header align="center" ><img src="https://thumbs.dreamstime.com/b/banner-de-bienvenida-con-pinceladas-coloridas-bienvenido-tipograf%C3%ADa-pincel-letras-coloreadas-concepto-ilustraci%C3%B3n-sobre-fondo-169586851.jpg" width="1800 px" height="300 px" align: center;></header>
+    <nav align="center"><h1>WELCOME TO MAINPAGE  : <hr> </h1>
+        <form>
+            <fieldset><h1>REGISTRATE</h1>
+                <br>
+                <label for=""> Nombre</label>
+                <input type="text" minlength="1" required>
+                <br>
+                <label for=""> Apellidos</label>
+                <input type="text"minlength="1" pattern="[[a-zA-Z]]" required>
+                <br>
+                <label for=""> Email</label>
+                <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <br>
+                <label for=""> Numero de celular</label>
+                <input type="text"  maxlength="10" pattern="[[0-9]]" required>
+                <br>
+                <label for=""> Estado civil</label>
+                <br>
+                <input type="radio" name="civil" >Coltero
+                <br>
+                <input type="radio"name="civil" >Casado
+                <br>
+                <input type="radio"name="civil" >Union Libre
+                <br>
+                <label for=""> Fecha de nacimiento</label>
+                <input type="date" pattern="09(0[1-2]|1[\d]|3[\d]|2[0-1])[\d]{3}[\d]{4}" required>
+                <br>
+                <label for=""> Descripcion</label>
+                <br>
+                <textarea placeholder="INGRESE SU BIO..." minlength="1"  required></textarea>
+                
+            </fieldset>
+            </form>
+        <p><a href="https://hp-api.onrender.com/api/characters" target="_blank"> Para mas informacion de Harry Potter click aqui </a></p><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c83ee01-3d5f-466b-a9a8-f85a92566871/d278qrz-5822c92b-5fc7-410e-bcb2-77ff9a8bfb3c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjODNlZTAxLTNkNWYtNDY2Yi1hOWE4LWY4NWE5MjU2Njg3MVwvZDI3OHFyei01ODIyYzkyYi01ZmM3LTQxMGUtYmNiMi03N2ZmOWE4YmZiM2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.51umyYdIdGHIA2zySmqJ6IO7cF7jbys3L5F34y0CwEw" width="1000 px" height="200 px" align: center;>
+        <br><a href="https://fakestoreapi.com/products"target="_blank"> Para mas informacion de productos click aqui </a></br><img src="https://i.pinimg.com/originals/f9/57/53/f957533944cc3c2ac6b793b8c42380a2.png" width="1000 px" height="200 px" align: center;></p>
+        <br><a href="https://rickandmortyapi.com/api/character" target="_blank"> Para mas informacion de personajes RICK AND MORTY click aqui </a></br><img src="https://timelinecovers.pro/facebook-cover/download/rick-and-morty-uhmm-facebook-cover.jpg"  width="1000 px" height="200 px" align: center;></p>
+    </nav>
+    <main>
+        <ol>
+            <li>  <a href="/home/coex/mauricio/paginas/paginapotter.html" target="_blank"> !!!mira mi pagina de harry potter para conocer mas!!!! </a></li>
+            <li> <a href="/home/coex/mauricio/paginas/pagina_ropa.html"target="_blank"> !!!!mira mi pagina de ropa para conocer mas !!!! </a></li>
+            <li><a href="/home/coex/mauricio/paginas/pagina_rickandmorty.html"target="_blank"> !!!mira mi pagina de rick y morty para conocer mas  !!!</a></li>
+        </ol>
+        
+    </main>
+
+</body>
+</html>
